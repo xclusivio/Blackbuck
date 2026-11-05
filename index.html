@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Black Buck Studio — independent web design and development studio creating thoughtful digital experiences.">
+<title>Black Buck Studio — Web Design & Development</title>
+<style>
+:root{--bg:#f5f4f0;--ink:#171815;--muted:#777970;--line:#deded6;--accent:#c7f36b;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-size:16px;font-weight:800;letter-spacing:-.6px}.brand span{display:inline-grid;place-items:center;width:28px;height:28px;background:var(--ink);color:var(--accent);border-radius:50%;margin-right:9px;font-size:14px}.nav{display:flex;gap:28px;font-size:13px;color:var(--muted)}.nav a:hover{color:var(--ink)}
+.hero{padding:112px 0 100px;display:grid;grid-template-columns:1.4fr .6fr;gap:40px;align-items:end}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;color:var(--muted);font-weight:700}.hero h1{font-size:clamp(54px,8vw,104px);line-height:.94;letter-spacing:-7px;margin:24px 0 26px;max-width:850px}.hero h1 em{font-style:normal;color:#85877e}.intro{font-size:17px;line-height:1.65;color:var(--muted);max-width:330px;margin-bottom:8px}.cta{display:inline-flex;align-items:center;gap:18px;background:var(--ink);color:white;padding:15px 20px;border-radius:3px;font-size:13px;margin-top:18px}.cta b{color:var(--accent);font-size:18px}
+.section-head{display:flex;justify-content:space-between;align-items:end;padding:28px 0 22px;border-top:1px solid var(--line)}.section-head h2{font-size:30px;letter-spacing:-1.5px;margin:0}.section-head p{font-size:12px;color:var(--muted);margin:0}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:34px 22px;padding-bottom:100px}.project{display:block}.visual{height:300px;position:relative;overflow:hidden;border-radius:4px;background:#e5e5df;display:flex;align-items:center;justify-content:center}.visual:after{content:"";position:absolute;inset:14px;border:1px solid #ffffff80;pointer-events:none}.mock{width:76%;height:72%;background:#fff;border-radius:5px;box-shadow:0 20px 50px #0002;padding:18px;position:relative;overflow:hidden}.mock-top{height:8px;width:45%;background:#222;border-radius:5px;margin-bottom:24px}.mock-line{height:7px;background:#e7e7e2;border-radius:5px;margin:9px 0;width:70%}.mock-line.short{width:42%}.mock-block{height:65px;background:#d7e0cd;border-radius:3px;margin-top:18px}.project:nth-child(2) .visual{background:#d9e1d9}.project:nth-child(2) .mock-block{background:#c4d5c9}.project:nth-child(3) .visual{background:#e8d9cb}.project:nth-child(3) .mock-block{background:#c58f68}.project:nth-child(4) .visual{background:#d9dce8}.project:nth-child(4) .mock-block{background:#aeb7d1}.project:nth-child(5) .visual{background:#e6e0c9}.project:nth-child(5) .mock-block{background:#c7b77f}
+.project-meta{display:flex;justify-content:space-between;align-items:center;margin-top:15px}.project-meta h3{font-size:19px;letter-spacing:-.5px;margin:0}.project-meta span{font-size:12px;color:var(--muted)}.project-desc{font-size:13px;color:var(--muted);margin:7px 0 0}
+.about{background:var(--ink);color:white;padding:72px 0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}.about h2{font-size:clamp(34px,5vw,58px);letter-spacing:-3px;line-height:1.02;margin:18px 0}.about p{color:#b9bbb3;line-height:1.8;font-size:15px;max-width:480px}.services{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.services span{border-top:1px solid #484a43;padding:13px 0;font-size:13px;color:#e4e5df}
+footer{padding:36px 0;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}footer strong{color:var(--ink)}
+@media(max-width:700px){.wrap{width:min(100% - 32px,1160px)}header{height:66px}.nav{gap:14px;font-size:11px}.hero{padding:78px 0 68px;grid-template-columns:1fr;gap:8px}.hero h1{letter-spacing:-4px;font-size:clamp(52px,15vw,82px)}.intro{font-size:15px}.section-head{align-items:start;gap:10px;flex-direction:column}.projects{grid-template-columns:1fr;gap:28px;padding-bottom:70px}.visual{height:260px}.about{padding:58px 0}.about-grid{grid-template-columns:1fr;gap:25px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="#"><span>B</span>BLACK BUCK STUDIO</a>
+<nav class="nav"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero">
+<div><div class="eyebrow">Independent web design studio</div><h1>Digital, with<br><em>purpose.</em></h1><a class="cta" href="#work">Explore selected work <b>↘</b></a></div>
+<p class="intro">We design and build clear, considered websites for businesses ready to make a better impression online.</p>
+</section>
+<section id="work">
+<div class="section-head"><h2>Selected projects</h2><p>01 — 05 / Concept portfolio</p></div>
+<div class="projects">
+<a class="project" href="projects/manufacturing/"><div class="visual"><div class="mock"><div class="mock-top"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-block"></div></div></div><div class="project-meta"><h3>Forge Manufacturing</h3><span>01 ↗</span></div><p class="project-desc">Manufacturing · Industrial website</p></a>
+<a class="project" href="projects/services/"><div class="visual"><div class="mock"><div class="mock-top"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-block"></div></div></div><div class="project-meta"><h3>Northline Services</h3><span>02 ↗</span></div><p class="project-desc">Services · Business website</p></a>
+<a class="project" href="projects/ecommerce/"><div class="visual"><div class="mock"><div class="mock-top"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-block"></div></div></div><div class="project-meta"><h3>Form & Field</h3><span>03 ↗</span></div><p class="project-desc">E-commerce · Online store</p></a>
+<a class="project" href="projects/hotels/"><div class="visual"><div class="mock"><div class="mock-top"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-block"></div></div></div><div class="project-meta"><h3>Casa Sol</h3><span>04 ↗</span></div><p class="project-desc">Hospitality · Boutique hotel</p></a>
+<a class="project" href="projects/book-store/"><div class="visual"><div class="mock"><div class="mock-top"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-block"></div></div></div><div class="project-meta"><h3>Paper & Prose</h3><span>05 ↗</span></div><p class="project-desc">Retail · Book store</p></a>
+</div>
+</section>
+</main>
+</div>
+<section class="about" id="about"><div class="wrap about-grid"><div><div class="eyebrow">A little about us</div><h2>Good ideas deserve<br>good websites.</h2></div><div><p>Black Buck Studio is a concept web design studio focused on useful, distinctive digital experiences. From a simple service website to a complete online store, we bring clarity to every screen.</p><div class="services"><span>Website design</span><span>Web development</span><span>E-commerce</span><span>Digital experiences</span></div></div></div></section>
+<div class="wrap"><footer id="contact"><div><strong>BLACK BUCK STUDIO</strong><br>Independent web design & development</div><div>Have a project in mind? <a href="mailto:hello@blackbuckstudio.com"><strong>Let's talk ↗</strong></a></div><div>© <span id="year"></span> Black Buck Studio</div></footer></div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
